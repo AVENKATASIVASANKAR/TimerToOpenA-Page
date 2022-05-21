@@ -4,7 +4,13 @@ var inititalcountdown=countdown.innerHTML;
 countdown.innerHTML=inititalcountdown=inititalcountdown > 0?inititalcountdown-1:0;
 
 if (inititalcountdown===1){
-    window.open('https://avenkatasivasankar.github.io/GSWShelp/')
+
+
+        document.getElementById("my_audio").play();
+              
+   
+    window.open('https://avenkatasivasankar.github.io/GSWShelp/');
+
     
 }
 else if(inititalcountdown===10){
@@ -16,16 +22,11 @@ else if(inititalcountdown===9){
 else if(inititalcountdown===0){
    document.getElementById("demo").innerHTML="your countdown has been stopped,and your files are opened kindly check them";
 
+   
 }
 else {
     document.getElementById("demo").innerHTML="wait until your timer stops"
 }
-
-
-
-
-
-
 
 var i = 0;
 function change() {
