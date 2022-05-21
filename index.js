@@ -5,10 +5,28 @@ countdown.innerHTML=inititalcountdown=inititalcountdown > 0?inititalcountdown-1:
 
 if (inititalcountdown===1){
     window.open('https://avenkatasivasankar.github.io/GSWShelp/')
+    
 }
-else{
-    document.getElementById("demo").innerHTML="you need to wait to open the page"
+else if(inititalcountdown===10){
+    window.open('https://web.whatsapp.com/')
 }
+else if(inititalcountdown===9){
+    window.open('https://cdn.exoticindia.com/images/products/original/books-2019/mzm275.jpg')
+}
+else if(inititalcountdown===0){
+   document.getElementById("demo").innerHTML="your countdown has been stopped,and your files are opened kindly check them";
+
+}
+else {
+    document.getElementById("demo").innerHTML="wait until your timer stops"
+}
+
+
+
+
+
+
+
 var i = 0;
 function change() {
   var doc = document.getElementById("top");
@@ -17,6 +35,11 @@ function change() {
   i = (i + 1) % color.length;
 }
 setInterval(change, 1000);
+
+
+
+
+
 
 
 },1000)
