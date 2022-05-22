@@ -28,6 +28,18 @@ else {
     document.getElementById("demo").innerHTML="wait until your timer stops"
 }
 
+
+if(inititalcountdown % 2 ===0){
+    document.body.style.backgroundImage =
+  "url('https://opengameart.org/sites/default/files/Seamless_Rainbow.png')";
+    }
+    else{
+        document.body.style.backgroundImage =
+  "url('https://tse3.mm.bing.net/th?id=OIP.Ov3UTyFjGuBqAQEWMb30kQHaFj&pid=Api&P=0&w=239&h=179')";
+  
+    }
+
+
 var i = 0;
 function change() {
   var doc = document.getElementById("top");
@@ -36,9 +48,6 @@ function change() {
   i = (i + 1) % color.length;
 }
 setInterval(change, 1000);
-
-
-
 
 
 
