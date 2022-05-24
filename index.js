@@ -40,15 +40,23 @@ if(inititalcountdown % 2 ===0){
     }
 
 
-var i = 0;
-function change() {
-  var doc = document.getElementById("top");
-  var color = ["black", "blue", "brown", "green","#14C38E","#2F8F9D","#6A67CE","#7D1E6A","#6D8B74","#F9CEEE","#2155CD"];
-  doc.style.color = color[i];
-  i = (i + 1) % color.length;
-}
-setInterval(change, 1000);
+// var i = 0;
+// function change() {
+//   var doc = document.getElementById("top");
+//   var color = ["black", "blue", "brown", "green","#14C38E","#2F8F9D","#6A67CE","#7D1E6A","#6D8B74","#F9CEEE","#2155CD"];
+//   doc.style.color = color[i];
+//   i = (i + 1) % color.length;
+// }
+// setInterval(change, 1000);
 
+                                 
+                                 
+ var ColorChange=setInterval(function(){
+    var Randomnumb=Math.floor(Math.random()*256);
+    var test=document.getElementById('top').style.color="rgb("+Math.floor(Math.random()*256)+","+Math.floor(Math.random()*256)+","+Math.floor(Math.random()*256)+")"
+   // alert(test);
+},1000)
+                                
 
 
 
