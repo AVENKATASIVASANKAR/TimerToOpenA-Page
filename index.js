@@ -8,7 +8,8 @@ if (inititalcountdown===1){
 
         document.getElementById("my_audio").play();
               
-   
+   window.open('https://avenkatasivasankar.github.io/alarm/');
+        
     window.open('https://avenkatasivasankar.github.io/GSWShelp/');
 
     
