@@ -8,12 +8,17 @@ if (inititalcountdown===1){
 
         document.getElementById("my_audio").play();
               
-   window.open('https://avenkatasivasankar.github.io/alarm/');
+   
         
     window.open('https://avenkatasivasankar.github.io/GSWShelp/');
 
     
 }
+ else if(inititalcountdown===2){
+    window.open('https://avenkatasivasankar.github.io/alarm/')
+}
+                                 
+                                 
 else if(inititalcountdown===10){
     window.open('https://web.whatsapp.com/')
 }
