@@ -14,14 +14,11 @@ if (inititalcountdown===1){
 
     
 }
- else if(inititalcountdown===2){
+                                 
+else if(inititalcountdown===5){
     window.open('https://avenkatasivasankar.github.io/alarm/')
 }
-                                 
-                                 
-else if(inititalcountdown===10){
-    window.open('https://web.whatsapp.com/')
-}
+                            
 else if(inititalcountdown===9){
     window.open('https://cdn.exoticindia.com/images/products/original/books-2019/mzm275.jpg')
 }
